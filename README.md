@@ -10,7 +10,7 @@ to run the program:
 ```console
 python3 main.py
 ```
-## Usage Examples: 
+## Usage Examples
 Run and show simulation 
 ```console
 python3 .\main.py --simulate True --agents 4 --runs 2 --show_fig True
@@ -19,7 +19,7 @@ Search for optimal parameters and save best history and simulation parameters
 ```console
 python3 .\main.py --grid_search True --save True --save_fig True --show_fig True --intervals 4 --agents 4 --runs 2 
 ```
-## Optional commands: 
+## Optional commands
 ### Simulate Games 
 ```console
 --simulate, type=bool, help="Run simulation :bool", default=False
