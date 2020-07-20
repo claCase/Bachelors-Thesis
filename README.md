@@ -1,4 +1,7 @@
 # Thesis
+## Abstract
+Reinforcement Learning is a framework into which many real-world problems can be casted. It is a learning paradigm which is based on iterative learning. It has shown great promise in the single agent setting, with applications to many fields and much of the research is focused on this setting (Kapoor, 2018). In this thesis we will present the multi-agent case, within which two agents play against each other and try to maximize their own reward. This is more challenging than the single agent setting because agents play against a non-stationary opponent. We apply this framework to the class of games called repeated normal form games. We first describe the general game setting and the requirements of the algorithm. We then introduce the theory behind the algorithm and its derivation. We then investigate how well this algorithm can approximate human learning and the resulting equilibrium that arises from those human interactions by comparing the simulation results to gameplays played by human players.
+## Install 
 to install required packages with pip: 
 ```console
 pip install -r requirements.txt
@@ -7,7 +10,7 @@ to run the program:
 ```console
 python3 main.py
 ```
-## Usage Examples: 
+## Usage Examples
 Run and show simulation 
 ```console
 python3 .\main.py --simulate True --agents 4 --runs 2 --show_fig True
@@ -16,7 +19,7 @@ Search for optimal parameters and save best history and simulation parameters
 ```console
 python3 .\main.py --grid_search True --save True --save_fig True --show_fig True --intervals 4 --agents 4 --runs 2 
 ```
-## Optional commands: 
+## Optional commands
 ### Simulate Games 
 ```console
 --simulate, type=bool, help="Run simulation :bool", default=False
